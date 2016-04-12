@@ -599,6 +599,11 @@ exe "hi! Todo"           .s:fmt_bold   .s:fg_magenta.s:bg_none
 "       *Todo            anything that needs extra attention; mostly the
 "                        keywords TODO FIXME and XXX
 "
+exe "hi! Member"         .s:fmt_ital   .s:fg_violet .s:bg_none
+exe "hi! Variable"       .s:fmt_none   .s:fg_cyan   .s:bg_none
+exe "hi! Namespace"      .s:fmt_none   .s:fg_yellow .s:bg_none
+exe "hi! EnumConstant"   .s:fmt_none   .s:fg_yellow .s:bg_none
+" color_coded syntax highlighting
 "}}}
 " Extended highlighting "{{{
 " ---------------------------------------------------------------------
